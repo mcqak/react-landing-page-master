@@ -1,0 +1,74 @@
+.secondCroppingWrapper {
+    background-image: url("../../assets/images/blue4.png");
+    background-repeat: no-repeat;
+    background-position:  bottom;
+    background-size: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 143px;
+    padding-bottom: 40px;
+}
+
+.secondCroppingContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.secondCroppingContentTitle {
+    max-width: 550px;
+    color: white;
+    text-align: start;
+    padding: 0 50px;
+}
+
+.secondCroppingContentTitle h3 {
+    font-family: Barlow, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0 1px 12px rgba(0, 0, 0, 0.6);
+}
+
+.secondCroppingContentTitle h2 {
+    padding-top: 15px;
+    font-family: Barlow, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.55);
+}
+
+.secondCroppingContentTitle p {
+    padding-top: 30px;
+    font-family: Barlow, serif;
+    max-width: 459px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.secondCroppingImageContainer {
+    background-image: url("../../assets/images/Ellipse.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 80px 50px;
+}
+
+.secondCroppingImageContainer img{
+    width: 90%;
+}

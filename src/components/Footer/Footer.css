@@ -1,0 +1,56 @@
+.footerWrapper {
+    background: white;
+}
+
+.footerContent {
+    margin-top: 120px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.textContainer {
+    max-width: 200px;
+    margin: 0 70px;
+}
+
+.textContainer h1{
+    font-family: Barlow, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #515151;
+}
+
+.textContainer h2{
+    font-family: Barlow, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #515151;
+    margin: 30px 0;
+}
+
+.textContainer h3{
+    font-family: Barlow, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #0738DD;
+}
+
+.footerCopy {
+    display: flex;
+    margin-top: auto;
+    min-height: 70px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #0738DD;;
+}
+

@@ -1,0 +1,57 @@
+.wrapper {
+    background-image: url("../../assets/images/blue 1.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainTitleContainer {
+    text-align: center;
+    color: white;
+    font-family: Barlow, serif;
+}
+
+.mainTitleContainer h1{
+    margin-top: 15px;
+    font-size: 54px;
+    font-weight: 600;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.55);
+}
+
+.mainTitleContainer h2{
+    margin-top: 160px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+.flexMediaWrapper {
+    margin-top: 102px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    filter: drop-shadow(0px 20px 50px rgba(45, 161, 247, 0.149));
+}
+
+.mediaBlock {
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+.playIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+

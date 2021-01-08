@@ -1,0 +1,51 @@
+.ecoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainCircle {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(180deg, #0083FE 0%, #091CD0 100%);
+    box-shadow: 0 1px 26px rgba(51, 131, 175, 0.7);
+    position: relative;
+    z-index: 1;
+}
+
+.mainCircle img{
+    width: 50%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.sideElems {
+    display: flex;
+    flex-direction: column;
+}
+
+.brandCircleContainer:first-child {
+    margin: 20px 120px;
+}
+
+.brandCircleContainer:last-child {
+    margin: 20px 120px;
+}
+
+.brandCircleContainer:nth-child(2n) {
+    margin: 20px 30px;
+}
+
+.brandCircleContainer:nth-child(3n) {
+    margin: 20px -40px;
+}
+.last {
+    transform: rotateY(180deg);
+}
+
+.last h3, .last img{
+    transform: rotateY(180deg);
+}

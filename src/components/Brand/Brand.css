@@ -1,0 +1,39 @@
+.brandWrapper {
+    background: #FBFBFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 143px;
+}
+
+.brandContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.brandContainer h1 {
+    font-family: Barlow, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #152370;
+}
+
+.brandLine img{
+    width: 165px;
+    margin: 28px 0 50px 0;
+}
+
+.brandList {
+    max-width: 1200px;
+}
+
+.brandList img {
+    width: 80px;
+    margin: 30px 35px;
+}

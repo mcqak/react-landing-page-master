@@ -1,0 +1,68 @@
+.downloadWrapper {
+    background-image: url("../../assets/images/Rectangle Small.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 143px;
+}
+
+.downloadContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.downloadTitle h1{
+    font-family: Barlow, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.55);
+}
+
+.downloadTitle p{
+    font-family: Barlow, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 141.2%;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    max-width: 451px;
+    text-align: justify;
+    margin: 0 100px;
+}
+
+.downloadIconBox {
+    background: #FBFAFD;
+    border: 1px dashed #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.downloadIconBox img {
+    width: 60%;
+    padding-bottom: 10px;
+}
+
+.downloadIconBox p {
+    margin: 0;
+    font-family: Barlow, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #0738DD;
+}

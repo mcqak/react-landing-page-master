@@ -1,0 +1,80 @@
+.brandCircleContainer {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    background: linear-gradient(180deg, #0083FE 0%, #091CD0 100%);
+    box-shadow: 0 1px 9px rgba(102, 102, 102, 0.11);
+    margin: 20px 80px;
+    position: relative;
+}
+
+.brandCircleContainer img{
+    width: 50%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.brandCircleContainer h3 {
+    position: absolute;
+    font-family: Barlow, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    color: #152370;
+    margin: 5px 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.topVector {
+    position: absolute;
+    width: 220%;
+    height: 0;
+    border-top: 1px dashed blue;
+    right: -220%;
+    top: 50%;
+}
+
+.topVector::after {
+    content: "";
+    position: absolute;
+    width: 95%;
+    border-top: 1px dashed blue;
+    right: -95%;
+    transform: rotate(55deg);
+    transform-origin: top left;
+}
+
+.centerVector {
+    position: absolute;
+    width: 350%;
+    height: 0;
+    border-top: 1px dashed blue;
+    right: -350%;
+    top: 50%;
+}
+
+.bottomVector {
+    position: absolute;
+    width: 220%;
+    height: 0;
+    border-top: 1px dashed blue;
+    right: -220%;
+    top: 50%;
+}
+
+.bottomVector::after {
+    content: "";
+    position: absolute;
+    width: 95%;
+    border-top: 1px dashed blue;
+    right: -95%;
+    transform: rotate(305deg);
+    transform-origin: top left;
+}

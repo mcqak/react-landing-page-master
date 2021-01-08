@@ -1,0 +1,78 @@
+.croppingWrapper {
+    background-image: url("../../assets/images/Rectangle.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 143px;
+}
+
+.croppingContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.croppingContentTitle {
+    max-width: 550px;
+    color: white;
+    text-align: start;
+    padding: 0 50px;
+}
+
+.croppingContentTitle h3 {
+    font-family: Barlow, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0 1px 12px rgba(0, 0, 0, 0.6);
+}
+
+.croppingContentTitle h2 {
+    padding-top: 15px;
+    font-family: Barlow, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.55);
+}
+
+.croppingContentTitle p {
+    padding-top: 30px;
+    font-family: Barlow, serif;
+    max-width: 459px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.croppingArrowImageContainer img{
+    width: 100%;
+    padding: 0 20px;
+}
+
+.croppingImageContainer {
+    background-image: url("../../assets/images/Ellipse.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 80px 0;
+}
+
+.croppingImageContainer img{
+    width: 90%;
+}

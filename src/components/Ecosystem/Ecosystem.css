@@ -1,0 +1,75 @@
+.ecoWrapper {
+    margin-top: 208px;
+}
+
+.ecosystemTitle {
+    font-family: Barlow, serif;
+    font-style: normal;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.ecosystemTitle h2{
+    color: #152370;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 55px;
+}
+
+.ecosystemTitle h3{
+    margin: 0 auto;
+    max-width: 572px;
+    color: #2B2350;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.ecoDiagramContainer {
+    margin: 100px 0 240px 0;
+    background-image: url("../../assets/images/back-img-eco.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+}
+
+.ecoCardsContainer {
+    padding-top: 100px;
+    background-image: url("../../assets/images/back-img-gray.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+}
+
+.ecoCardsList {
+    padding-top: 90px;
+    margin-bottom: 217px;
+}
+
+.ecosystemCard {
+    margin: 30px 25px;
+    background: white;
+    padding: 20px;
+    width: 450px;
+    display: inline-block;
+    text-align: start;
+    position: relative;
+    box-shadow: 0 1px 36px rgba(102, 102, 102, 0.16);
+    border-radius: 10px;
+}
+
+.ecosystemCard h3 {
+    font-family: Barlow, serif;
+    font-style: normal;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2B2350;
+}
+
+.ecosystemCard img{
+    width: 80%;
+    background-size: cover;
+}
+

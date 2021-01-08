@@ -1,0 +1,112 @@
+.editorWrapper {
+    background-image: url("../../assets/images/blue 2.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 143px;
+}
+
+.editorTitle h1 {
+    padding-top: 90px;
+    max-width: 689px;
+    font-family: Barlow, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 55px;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.55);
+}
+
+.editorContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.editorContentTitle {
+    max-width: 550px;
+    color: white;
+    text-align: start;
+}
+
+.editorContentTitle h3 {
+    font-family: Barlow, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0 1px 12px rgba(0, 0, 0, 0.6);
+}
+
+.editorContentTitle h2 {
+    padding-top: 15px;
+    font-family: Barlow, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.55);
+}
+
+.editorContentTitle p {
+    padding-top: 30px;
+    font-family: Barlow, serif;
+    max-width: 459px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.advDataGraphsContainer {
+    background-image: url("../../assets/images/Ellipse.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.advGraphRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.graphCard {
+    margin: 10px;
+    background: white;
+    height: 134px;
+    max-width: 100%;
+    padding: 20px;
+    display: inline-block;
+    text-align: start;
+    position: relative;
+    box-shadow: 0 1px 36px rgba(102, 102, 102, 0.16);
+    border-radius: 10px;
+}
+
+.graphCard img{
+    height: 100px;
+    padding: 0 10px;
+    margin: 0 auto;
+    background-size: cover;
+}

@@ -1,0 +1,24 @@
+.shapedButton{
+    color: #1348FC;
+    padding: 16px 40px;
+    background: white;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px 25px 5px 25px;
+    margin-top: 30px;
+}
+
+.shapedButtonBlue{
+    color: white;
+    padding: 16px 40px;
+    background: linear-gradient(180deg, #0083FE 0%, #091CD0 100%);
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px 25px 5px 25px;
+    margin-top: 60px;
+}
+
+.shapedButtonBlue:hover{
+    background: linear-gradient(180deg, #7bbeff 0%, #4053ff 100%);
+
+}

@@ -1,0 +1,73 @@
+.emailWrapper {
+    background-image: url("../../assets/images/Union 1 8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 143px;
+    padding-bottom: 143px;
+}
+
+.emailContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emailTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emailTitle h1 {
+    font-family: Barlow, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FBFAFD;
+    max-width: 714px;
+}
+
+.emailTitle h2 {
+    font-family: Barlow, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 154.7%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FBFAFD;
+    max-width: 408px;
+    margin: 56px 0;
+}
+
+.emailField {
+    position: relative;
+}
+
+.emailField input {
+    background: #FBFAFD;
+    border-radius: 80px;
+    color: #1348FC;
+    width: 690px;
+    padding: 15px;
+    border: none;
+}
+
+.emailField button {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    padding: 10px 15px;
+    color: white;
+    background: linear-gradient(180deg, #0083FE 0%, #091CD0 100%);
+    border-radius: 80px;
+    border: none;
+}
